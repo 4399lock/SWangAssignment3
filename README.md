@@ -1,2 +1,2 @@
 # SWangAssignment3
-Assignment 3 project
+To run the project, you can open the index.html to view my main page.
