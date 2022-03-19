@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vehicle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="js/form.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+</head>
+<body>
+  <nav class="top_menu">
+     <ul>
+       <li>
+         <a href="#">Add Vehicle</a>
+      </li>
+      <li>
+        <a href="./html/search.html">All Vehicle</a>
+     </li>
+     </ul>
+  </nav>
+  <section class="w50">
+    <form id="myform" name="myform" method="Post" onsubmit="return formSubmit();" action="" >
+      <label>First Name</label>
+      <input id="first" type="text" name="first"><br/>
+
+      <label>Last Name</label>
+      <input id="last" type="text" name="last"><br/>
+
+      <label>Address</label>
+      <input id="address" type="text" name="address"><br/>
+
+      <label>City</label>
+      <input id="city" type="text" name="city"><br/>
+
+      <label>Province</label>
+      <input id="province" type="text" name="province"><br/>
+
+      <label>Post Code</label>
+      <input id="postcode" type="text" name="postcode"><br/>
+
+      <label>Phone</label>
+      <input id="phone" type="text" name="phone"><br/>
+
+      <label>Email</label>
+      <input id="email" type="text" name="email"><br/>
+
+      <label>Vehicle Make</label>
+      <input id="make" type="text" name="make"><br/>
+
+      <label>Vehicle Model</label>
+      <input id="model" type="text" name="model"><br/>
+
+      <label>Vehicle Year</label>
+      <input id="year" type="text" name="year"><br/>
+
+      <input type="submit" value="Submit">
+      <p id="errors"></p>
+      
+    </form>  
+</section>
+<section class="w50">
+  <div class="formData">
+    <p id="formResult">This is where the form data will show up.</p>
+  </div>
+</section>
+<div class="clear"></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
